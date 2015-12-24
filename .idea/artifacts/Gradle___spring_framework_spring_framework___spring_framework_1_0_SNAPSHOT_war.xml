@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Gradle : spring-framework:spring-framework : spring-framework-1.0-SNAPSHOT.war">
-    <output-path>$PROJECT_DIR$/build/classes/artifacts/spring-framework</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/spring-framework</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$" />
     </properties>
@@ -9,14 +9,11 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="spring-framework" />
-          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/classes/main" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/spring-framework/exploded/spring-framework-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/spring-framework/exploded/spring-framework-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>
